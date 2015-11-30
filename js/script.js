@@ -125,7 +125,7 @@ Universe.draw = function () {
 
 //-----COUNT TIME
 Universe.showTime = function (unitime) {
-    document.getElementById('utime').innerHTML = 'Moments since the Big Bang: ' + unitime % .01;
+    document.getElementById('utime').innerHTML = 'Moments since the Big Bang: ' + unitime%.01;
 
 };
 
